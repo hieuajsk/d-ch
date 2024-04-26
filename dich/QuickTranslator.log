@@ -1,0 +1,627 @@
+﻿3/21/2024 6:03:22 PM: Exception of type 'System.OutOfMemoryException' was thrown.
+System.OutOfMemoryException
+   at System.String.GetStringForStringBuilder(String value, Int32 startIndex, Int32 length, Int32 capacity)
+   at System.Text.StringBuilder.GetNewString(String currentString, Int32 requiredLength)
+   at System.Text.StringBuilder.Append(String value)
+   at TranslatorEngine.TranslatorEngine.SaveDictionaryToFileWithoutSorting(Dictionary`2 dictionary, String filePath)
+   at TranslatorEngine.TranslatorEngine.UpdateVietPhraseDictionary(String key, String value, Boolean sorting)
+   at QuickTranslator.UpdateVietPhraseForm.UpdateButtonClick(Object sender, EventArgs e)
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+3/24/2024 9:24:58 PM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+3/24/2024 9:24:58 PM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+3/27/2024 5:51:43 PM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+3/27/2024 5:52:55 PM: An item with the same key has already been added.
+System.ArgumentException
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at TranslatorEngine.TranslatorEngine.loadNhanByOneMeaningDictionary()
+   at TranslatorEngine.TranslatorEngine.ChineseToVietPhraseOneMeaning(String chinese, Int32 wrapType, Int32 translationAlgorithm, Boolean prioritizedName, CharRange[]& chinesePhraseRanges, CharRange[]& vietPhraseRanges)
+   at QuickTranslator.MainForm.<>c__DisplayClass5.<translateVietPhraseOneMeaning>b__3()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+3/28/2024 7:16:20 AM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/1/2024 12:47:17 PM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/6/2024 7:20:52 PM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/6/2024 7:31:24 PM: Lỗi xử lý luật nhân cho cụm từ: 跟安柏修一样
+System.NotImplementedException
+   at TranslatorEngine.TranslatorEngine.ChineseToLuatNhan(String chinese, Dictionary`2 dictionary, String& luatNhan)
+   at TranslatorEngine.TranslatorEngine.ChineseToLuatNhan(String chinese, Dictionary`2 dictionary)
+   at TranslatorEngine.TranslatorEngine.ChineseToVietPhraseOneMeaning(String chinese, Int32 wrapType, Int32 translationAlgorithm, Boolean prioritizedName, CharRange[]& chinesePhraseRanges, CharRange[]& vietPhraseRanges)
+   at QuickTranslator.MainForm.<>c__DisplayClass5.<translateVietPhraseOneMeaning>b__3()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+4/7/2024 2:55:31 PM: Index was outside the bounds of the array.
+System.IndexOutOfRangeException
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at TranslatorEngine.TranslatorEngine.loadNhanByOneMeaningDictionary()
+   at TranslatorEngine.TranslatorEngine.ChineseToVietPhraseOneMeaning(String chinese, Int32 wrapType, Int32 translationAlgorithm, Boolean prioritizedName, CharRange[]& chinesePhraseRanges, CharRange[]& vietPhraseRanges)
+   at QuickTranslator.MainForm.<>c__DisplayClass5.<translateVietPhraseOneMeaning>b__3()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+4/7/2024 2:55:39 PM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/8/2024 1:51:50 PM: Index was outside the bounds of the array.
+System.IndexOutOfRangeException
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at TranslatorEngine.TranslatorEngine.loadNhanByOneMeaningDictionary()
+   at TranslatorEngine.TranslatorEngine.ChineseToVietPhraseOneMeaning(String chinese, Int32 wrapType, Int32 translationAlgorithm, Boolean prioritizedName, CharRange[]& chinesePhraseRanges, CharRange[]& vietPhraseRanges)
+   at QuickTranslator.MainForm.<>c__DisplayClass5.<translateVietPhraseOneMeaning>b__3()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+4/8/2024 7:39:20 PM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/9/2024 10:51:25 AM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/9/2024 7:50:37 PM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/10/2024 10:09:48 AM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/10/2024 12:39:22 PM: Object reference not set to an instance of an object.
+System.NullReferenceException
+   at QuickTranslator.MainForm.chooseAMeaningMenuItem_Click(Object sender, EventArgs e)
+   at System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   at System.Windows.Forms.ToolStripMenuItem.OnClick(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   at System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   at System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   at System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   at System.Windows.Forms.ToolStripDropDown.OnMouseUp(MouseEventArgs mea)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   at System.Windows.Forms.ToolStripDropDown.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+4/10/2024 12:41:25 PM: Object reference not set to an instance of an object.
+System.NullReferenceException
+   at QuickTranslator.MainForm.chooseAMeaningMenuItem_Click(Object sender, EventArgs e)
+   at System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   at System.Windows.Forms.ToolStripMenuItem.OnClick(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   at System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   at System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   at System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   at System.Windows.Forms.ToolStripDropDown.OnMouseUp(MouseEventArgs mea)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   at System.Windows.Forms.ToolStripDropDown.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+4/10/2024 12:41:46 PM: Object reference not set to an instance of an object.
+System.NullReferenceException
+   at QuickTranslator.MainForm.chooseAMeaningMenuItem_Click(Object sender, EventArgs e)
+   at System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   at System.Windows.Forms.ToolStripMenuItem.OnClick(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   at System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   at System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   at System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   at System.Windows.Forms.ToolStripDropDown.OnMouseUp(MouseEventArgs mea)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   at System.Windows.Forms.ToolStripDropDown.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+4/10/2024 12:41:52 PM: Object reference not set to an instance of an object.
+System.NullReferenceException
+   at QuickTranslator.MainForm.chooseAMeaningMenuItem_Click(Object sender, EventArgs e)
+   at System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   at System.Windows.Forms.ToolStripMenuItem.OnClick(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   at System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   at System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   at System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   at System.Windows.Forms.ToolStripDropDown.OnMouseUp(MouseEventArgs mea)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   at System.Windows.Forms.ToolStripDropDown.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+4/10/2024 12:42:10 PM: Object reference not set to an instance of an object.
+System.NullReferenceException
+   at QuickTranslator.MainForm.chooseAMeaningMenuItem_Click(Object sender, EventArgs e)
+   at System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   at System.Windows.Forms.ToolStripMenuItem.OnClick(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   at System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   at System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   at System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   at System.Windows.Forms.ToolStripDropDown.OnMouseUp(MouseEventArgs mea)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   at System.Windows.Forms.ToolStripDropDown.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+4/10/2024 4:54:22 PM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/10/2024 5:04:10 PM: Destination array was not long enough. Check destIndex and length, and the array's lower bounds.
+System.ArgumentException
+   at System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length, Boolean reliable)
+   at System.Collections.Generic.Dictionary`2.Resize()
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at TranslatorEngine.TranslatorEngine.loadNhanByOneMeaningDictionary()
+   at TranslatorEngine.TranslatorEngine.ChineseToVietPhraseOneMeaning(String chinese, Int32 wrapType, Int32 translationAlgorithm, Boolean prioritizedName, CharRange[]& chinesePhraseRanges, CharRange[]& vietPhraseRanges)
+   at QuickTranslator.MainForm.<>c__DisplayClass5.<translateVietPhraseOneMeaning>b__3()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+4/10/2024 5:05:13 PM: An item with the same key has already been added.
+System.ArgumentException
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at TranslatorEngine.TranslatorEngine.loadNhanByOneMeaningDictionary()
+   at TranslatorEngine.TranslatorEngine.ChineseToVietPhraseOneMeaning(String chinese, Int32 wrapType, Int32 translationAlgorithm, Boolean prioritizedName, CharRange[]& chinesePhraseRanges, CharRange[]& vietPhraseRanges)
+   at QuickTranslator.MainForm.<>c__DisplayClass5.<translateVietPhraseOneMeaning>b__3()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+4/10/2024 5:05:24 PM: Source array was not long enough. Check srcIndex and length, and the array's lower bounds.
+System.ArgumentException
+   at System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length, Boolean reliable)
+   at System.Collections.Generic.Dictionary`2.Resize()
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at TranslatorEngine.TranslatorEngine.loadNhanByOneMeaningDictionary()
+   at TranslatorEngine.TranslatorEngine.ChineseToVietPhraseOneMeaning(String chinese, Int32 wrapType, Int32 translationAlgorithm, Boolean prioritizedName, CharRange[]& chinesePhraseRanges, CharRange[]& vietPhraseRanges)
+   at QuickTranslator.MainForm.<>c__DisplayClass5.<translateVietPhraseOneMeaning>b__3()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+4/10/2024 5:13:36 PM: Lỗi xử lý luật nhân cho cụm từ: 在灵域里
+System.NotImplementedException
+   at TranslatorEngine.TranslatorEngine.ChineseToLuatNhan(String chinese, Dictionary`2 dictionary, String& luatNhan)
+   at TranslatorEngine.TranslatorEngine.ChineseToLuatNhan(String chinese, Dictionary`2 dictionary)
+   at TranslatorEngine.TranslatorEngine.ChineseToVietPhraseOneMeaning(String chinese, Int32 wrapType, Int32 translationAlgorithm, Boolean prioritizedName, CharRange[]& chinesePhraseRanges, CharRange[]& vietPhraseRanges)
+   at QuickTranslator.MainForm.<>c__DisplayClass5.<translateVietPhraseOneMeaning>b__3()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+4/10/2024 5:13:47 PM: The process cannot access the file 'C:\Users\iamvh\OneDrive\Desktop\Quick Translator\Quick Translator\QuickTranslatorMain.config' because it is being used by another process.
+System.IO.IOException
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at QuickTranslator.Configuration.SaveToFile(String configFilePath)
+   at QuickTranslator.MainForm.VietPhraseToolStripMenuItemCheckStateChanged(Object sender, EventArgs e)
+   at System.Windows.Forms.ToolStripMenuItem.OnCheckStateChanged(EventArgs e)
+   at System.Windows.Forms.ToolStripMenuItem.set_CheckState(CheckState value)
+   at System.Windows.Forms.ToolStripMenuItem.set_Checked(Boolean value)
+   at QuickTranslator.MainForm.MainFormLoad(Object sender, EventArgs e)
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+4/10/2024 10:21:07 PM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/10/2024 10:37:32 PM: An item with the same key has already been added.
+System.ArgumentException
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at TranslatorEngine.TranslatorEngine.loadNhanByOneMeaningDictionary()
+   at TranslatorEngine.TranslatorEngine.ChineseToVietPhraseOneMeaning(String chinese, Int32 wrapType, Int32 translationAlgorithm, Boolean prioritizedName, CharRange[]& chinesePhraseRanges, CharRange[]& vietPhraseRanges)
+   at QuickTranslator.MainForm.<>c__DisplayClass5.<translateVietPhraseOneMeaning>b__3()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+4/10/2024 10:37:41 PM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/10/2024 10:37:41 PM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/11/2024 11:51:13 AM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/12/2024 6:19:16 PM: An item with the same key has already been added.
+System.ArgumentException
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at TranslatorEngine.TranslatorEngine.loadNhanByOneMeaningDictionary()
+   at TranslatorEngine.TranslatorEngine.ChineseToVietPhraseOneMeaning(String chinese, Int32 wrapType, Int32 translationAlgorithm, Boolean prioritizedName, CharRange[]& chinesePhraseRanges, CharRange[]& vietPhraseRanges)
+   at QuickTranslator.MainForm.<>c__DisplayClass5.<translateVietPhraseOneMeaning>b__3()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+4/12/2024 6:19:28 PM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/14/2024 11:21:31 AM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/15/2024 9:33:57 AM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/15/2024 9:33:57 AM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/15/2024 9:33:57 AM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/15/2024 9:52:23 AM: An item with the same key has already been added.
+System.ArgumentException
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at TranslatorEngine.TranslatorEngine.loadNhanByOneMeaningDictionary()
+   at TranslatorEngine.TranslatorEngine.ChineseToVietPhraseOneMeaning(String chinese, Int32 wrapType, Int32 translationAlgorithm, Boolean prioritizedName, CharRange[]& chinesePhraseRanges, CharRange[]& vietPhraseRanges)
+   at QuickTranslator.MainForm.<>c__DisplayClass5.<translateVietPhraseOneMeaning>b__3()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+4/15/2024 9:52:31 AM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/15/2024 6:32:24 PM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/15/2024 7:59:34 PM: An item with the same key has already been added.
+System.ArgumentException
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at TranslatorEngine.TranslatorEngine.loadNhanByOneMeaningDictionary()
+   at TranslatorEngine.TranslatorEngine.ChineseToVietPhraseOneMeaning(String chinese, Int32 wrapType, Int32 translationAlgorithm, Boolean prioritizedName, CharRange[]& chinesePhraseRanges, CharRange[]& vietPhraseRanges)
+   at QuickTranslator.MainForm.<>c__DisplayClass5.<translateVietPhraseOneMeaning>b__3()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+4/15/2024 7:59:41 PM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/15/2024 8:38:56 PM: Index was outside the bounds of the array.
+System.IndexOutOfRangeException
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at TranslatorEngine.TranslatorEngine.loadNhanByOneMeaningDictionary()
+   at TranslatorEngine.TranslatorEngine.ChineseToVietPhraseOneMeaning(String chinese, Int32 wrapType, Int32 translationAlgorithm, Boolean prioritizedName, CharRange[]& chinesePhraseRanges, CharRange[]& vietPhraseRanges)
+   at QuickTranslator.MainForm.<>c__DisplayClass5.<translateVietPhraseOneMeaning>b__3()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+4/15/2024 8:38:56 PM: Source array was not long enough. Check srcIndex and length, and the array's lower bounds.
+System.ArgumentException
+   at System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length, Boolean reliable)
+   at System.Collections.Generic.Dictionary`2.Resize()
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at TranslatorEngine.TranslatorEngine.loadNhanByOneMeaningDictionary()
+   at TranslatorEngine.TranslatorEngine.ChineseToVietPhraseOneMeaning(String chinese, Int32 wrapType, Int32 translationAlgorithm, Boolean prioritizedName, CharRange[]& chinesePhraseRanges, CharRange[]& vietPhraseRanges)
+   at QuickTranslator.MainForm.<>c__DisplayClass5.<translateVietPhraseOneMeaning>b__3()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+4/15/2024 8:39:00 PM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/15/2024 8:39:04 PM: The process cannot access the file 'C:\Users\iamvh\OneDrive\Desktop\Quick Translator\Quick Translator\QuickTranslatorMain.config' because it is being used by another process.
+System.IO.IOException
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at QuickTranslator.Configuration.SaveToFile(String configFilePath)
+   at QuickTranslator.MainForm.VietPhraseToolStripMenuItemCheckStateChanged(Object sender, EventArgs e)
+   at System.Windows.Forms.ToolStripMenuItem.OnCheckStateChanged(EventArgs e)
+   at System.Windows.Forms.ToolStripMenuItem.set_CheckState(CheckState value)
+   at System.Windows.Forms.ToolStripMenuItem.set_Checked(Boolean value)
+   at QuickTranslator.MainForm.MainFormLoad(Object sender, EventArgs e)
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+4/15/2024 8:44:58 PM: Index was outside the bounds of the array.
+System.IndexOutOfRangeException
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at TranslatorEngine.TranslatorEngine.loadNhanByOneMeaningDictionary()
+   at TranslatorEngine.TranslatorEngine.ChineseToVietPhraseOneMeaning(String chinese, Int32 wrapType, Int32 translationAlgorithm, Boolean prioritizedName, CharRange[]& chinesePhraseRanges, CharRange[]& vietPhraseRanges)
+   at QuickTranslator.MainForm.<>c__DisplayClass5.<translateVietPhraseOneMeaning>b__3()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+4/15/2024 8:45:56 PM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/15/2024 8:45:56 PM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/15/2024 9:17:24 PM: Index was outside the bounds of the array.
+System.IndexOutOfRangeException
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at TranslatorEngine.TranslatorEngine.loadNhanByOneMeaningDictionary()
+   at TranslatorEngine.TranslatorEngine.ChineseToVietPhraseOneMeaning(String chinese, Int32 wrapType, Int32 translationAlgorithm, Boolean prioritizedName, CharRange[]& chinesePhraseRanges, CharRange[]& vietPhraseRanges)
+   at QuickTranslator.MainForm.<>c__DisplayClass5.<translateVietPhraseOneMeaning>b__3()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+4/15/2024 10:48:46 PM: Failed to save settings: The configuration file has been changed by another program. (C:\Users\iamvh\AppData\Local\QuickTranslator\QuickTranslator.exe_Url_kbiugwl5ptusuqqxiw1tszn2rikst4gd\4.3.4937.24333\user.config)
+System.Configuration.ConfigurationErrorsException
+   at System.Configuration.ClientSettingsStore.WriteSettings(String sectionName, Boolean isRoaming, IDictionary newSettings)
+   at System.Configuration.LocalFileSettingsProvider.SetPropertyValues(SettingsContext context, SettingsPropertyValueCollection values)
+   at System.Configuration.SettingsBase.SaveCore()
+   at System.Configuration.SettingsBase.Save()
+   at System.Configuration.ApplicationSettingsBase.Save()
+   at ExtendedWebBrowser2.BrowserForm.BrowserFormFormClosing(Object sender, FormClosingEventArgs e)
+   at System.Windows.Forms.Form.OnFormClosing(FormClosingEventArgs e)
+   at System.Windows.Forms.Form.WmClose(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+4/15/2024 10:56:15 PM: The process cannot access the file 'C:\Users\iamvh\OneDrive\Desktop\Quick Translator\Quick Translator\QuickTranslatorDockPanel.config' because it is being used by another process.
+System.IO.IOException
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at WeifenLuo.WinFormsUI.Docking.DockPanel.Persistor.SaveAsXml(DockPanel dockPanel, String fileName, Encoding encoding)
+   at WeifenLuo.WinFormsUI.Docking.DockPanel.SaveAsXml(String fileName)
+   at QuickTranslator.MainForm.MainFormFormClosed(Object sender, FormClosedEventArgs e)
+   at System.Windows.Forms.Form.OnFormClosed(FormClosedEventArgs e)
+   at System.Windows.Forms.Form.WmClose(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+4/16/2024 10:00:08 AM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/16/2024 12:50:46 PM: Index was outside the bounds of the array.
+System.IndexOutOfRangeException
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at TranslatorEngine.TranslatorEngine.loadNhanByOneMeaningDictionary()
+   at TranslatorEngine.TranslatorEngine.ChineseToVietPhraseOneMeaning(String chinese, Int32 wrapType, Int32 translationAlgorithm, Boolean prioritizedName, CharRange[]& chinesePhraseRanges, CharRange[]& vietPhraseRanges)
+   at QuickTranslator.MainForm.<>c__DisplayClass5.<translateVietPhraseOneMeaning>b__3()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+4/16/2024 12:50:53 PM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/16/2024 12:50:53 PM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/16/2024 12:51:00 PM: An item with the same key has already been added.
+System.ArgumentException
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at TranslatorEngine.TranslatorEngine.loadNhanByOneMeaningDictionary()
+   at TranslatorEngine.TranslatorEngine.ChineseToVietPhraseOneMeaning(String chinese, Int32 wrapType, Int32 translationAlgorithm, Boolean prioritizedName, CharRange[]& chinesePhraseRanges, CharRange[]& vietPhraseRanges)
+   at QuickTranslator.MainForm.<>c__DisplayClass5.<translateVietPhraseOneMeaning>b__3()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+4/16/2024 12:51:07 PM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/16/2024 12:51:50 PM: Index was outside the bounds of the array.
+System.IndexOutOfRangeException
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at TranslatorEngine.TranslatorEngine.loadNhanByOneMeaningDictionary()
+   at TranslatorEngine.TranslatorEngine.ChineseToVietPhraseOneMeaning(String chinese, Int32 wrapType, Int32 translationAlgorithm, Boolean prioritizedName, CharRange[]& chinesePhraseRanges, CharRange[]& vietPhraseRanges)
+   at QuickTranslator.MainForm.<>c__DisplayClass5.<translateVietPhraseOneMeaning>b__3()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+4/16/2024 12:52:53 PM: Index was outside the bounds of the array.
+System.IndexOutOfRangeException
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at TranslatorEngine.TranslatorEngine.loadNhanByOneMeaningDictionary()
+   at TranslatorEngine.TranslatorEngine.ChineseToVietPhraseOneMeaning(String chinese, Int32 wrapType, Int32 translationAlgorithm, Boolean prioritizedName, CharRange[]& chinesePhraseRanges, CharRange[]& vietPhraseRanges)
+   at QuickTranslator.MainForm.<>c__DisplayClass5.<translateVietPhraseOneMeaning>b__3()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+4/16/2024 5:03:08 PM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/17/2024 10:44:12 AM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/19/2024 11:29:27 PM: Index was outside the bounds of the array.
+System.IndexOutOfRangeException
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at TranslatorEngine.TranslatorEngine.loadNhanByOneMeaningDictionary()
+   at TranslatorEngine.TranslatorEngine.ChineseToVietPhraseOneMeaning(String chinese, Int32 wrapType, Int32 translationAlgorithm, Boolean prioritizedName, CharRange[]& chinesePhraseRanges, CharRange[]& vietPhraseRanges)
+   at QuickTranslator.MainForm.<>c__DisplayClass5.<translateVietPhraseOneMeaning>b__3()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+4/20/2024 9:36:43 AM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/20/2024 9:37:16 AM: Index was outside the bounds of the array.
+System.IndexOutOfRangeException
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at TranslatorEngine.TranslatorEngine.loadNhanByOneMeaningDictionary()
+   at TranslatorEngine.TranslatorEngine.ChineseToVietPhraseOneMeaning(String chinese, Int32 wrapType, Int32 translationAlgorithm, Boolean prioritizedName, CharRange[]& chinesePhraseRanges, CharRange[]& vietPhraseRanges)
+   at QuickTranslator.MainForm.<>c__DisplayClass5.<translateVietPhraseOneMeaning>b__3()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+4/20/2024 9:37:24 AM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/20/2024 9:37:28 AM: Destination array was not long enough. Check destIndex and length, and the array's lower bounds.
+System.ArgumentException
+   at System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length, Boolean reliable)
+   at System.Collections.Generic.Dictionary`2.Resize()
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at TranslatorEngine.TranslatorEngine.loadNhanByOneMeaningDictionary()
+   at TranslatorEngine.TranslatorEngine.ChineseToVietPhraseOneMeaning(String chinese, Int32 wrapType, Int32 translationAlgorithm, Boolean prioritizedName, CharRange[]& chinesePhraseRanges, CharRange[]& vietPhraseRanges)
+   at QuickTranslator.MainForm.<>c__DisplayClass5.<translateVietPhraseOneMeaning>b__3()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+4/20/2024 10:37:45 PM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/20/2024 11:24:54 PM: Index was outside the bounds of the array.
+System.IndexOutOfRangeException
+   at System.Collections.Generic.Dictionary`2.Resize()
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at TranslatorEngine.TranslatorEngine.loadNhanByOneMeaningDictionary()
+   at TranslatorEngine.TranslatorEngine.ChineseToVietPhraseOneMeaning(String chinese, Int32 wrapType, Int32 translationAlgorithm, Boolean prioritizedName, CharRange[]& chinesePhraseRanges, CharRange[]& vietPhraseRanges)
+   at QuickTranslator.MainForm.<>c__DisplayClass5.<translateVietPhraseOneMeaning>b__3()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+4/22/2024 9:16:00 AM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/22/2024 10:59:58 AM: Destination array was not long enough. Check destIndex and length, and the array's lower bounds.
+System.ArgumentException
+   at System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length, Boolean reliable)
+   at System.Collections.Generic.Dictionary`2.Resize()
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at TranslatorEngine.TranslatorEngine.loadNhanByOneMeaningDictionary()
+   at TranslatorEngine.TranslatorEngine.ChineseToVietPhraseOneMeaning(String chinese, Int32 wrapType, Int32 translationAlgorithm, Boolean prioritizedName, CharRange[]& chinesePhraseRanges, CharRange[]& vietPhraseRanges)
+   at QuickTranslator.MainForm.<>c__DisplayClass5.<translateVietPhraseOneMeaning>b__3()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+4/22/2024 11:09:40 AM: Source array was not long enough. Check srcIndex and length, and the array's lower bounds.
+System.ArgumentException
+   at System.Array.Copy(Array sourceArray, Int32 sourceIndex, Array destinationArray, Int32 destinationIndex, Int32 length, Boolean reliable)
+   at System.Collections.Generic.Dictionary`2.Resize()
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at TranslatorEngine.TranslatorEngine.loadNhanByOneMeaningDictionary()
+   at TranslatorEngine.TranslatorEngine.ChineseToVietPhraseOneMeaning(String chinese, Int32 wrapType, Int32 translationAlgorithm, Boolean prioritizedName, CharRange[]& chinesePhraseRanges, CharRange[]& vietPhraseRanges)
+   at QuickTranslator.MainForm.<>c__DisplayClass5.<translateVietPhraseOneMeaning>b__3()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+4/24/2024 9:45:15 AM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/24/2024 9:48:05 AM: An item with the same key has already been added.
+System.ArgumentException
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at TranslatorEngine.TranslatorEngine.loadNhanByOneMeaningDictionary()
+   at TranslatorEngine.TranslatorEngine.ChineseToVietPhraseOneMeaning(String chinese, Int32 wrapType, Int32 translationAlgorithm, Boolean prioritizedName, CharRange[]& chinesePhraseRanges, CharRange[]& vietPhraseRanges)
+   at QuickTranslator.MainForm.<>c__DisplayClass5.<translateVietPhraseOneMeaning>b__3()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+4/26/2024 10:03:08 AM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/26/2024 10:09:42 AM: Index was outside the bounds of the array.
+System.IndexOutOfRangeException
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at TranslatorEngine.TranslatorEngine.loadNhanByOneMeaningDictionary()
+   at TranslatorEngine.TranslatorEngine.ChineseToVietPhraseOneMeaning(String chinese, Int32 wrapType, Int32 translationAlgorithm, Boolean prioritizedName, CharRange[]& chinesePhraseRanges, CharRange[]& vietPhraseRanges)
+   at QuickTranslator.MainForm.<>c__DisplayClass5.<translateVietPhraseOneMeaning>b__3()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+4/26/2024 10:14:08 AM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
+4/26/2024 10:27:48 AM: The type initializer for 'QuickTranslator.MainForm' threw an exception.
+System.TypeInitializationException
+   at QuickTranslator.MainForm..ctor()
+   at QuickTranslator.Program.Main(String[] args)
